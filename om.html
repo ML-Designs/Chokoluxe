@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkter – ChokoLuxe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html" class="logo">ChokoLuxe</a>
+      </div>
+
+      <nav class="nav" id="nav-menu">
+        <a href="produkter.html">Produkter</a>
+        <a href="om.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+    <!-- OM CHOKOLUXE -->
+    <section class="om-sektion" id="om">
+      <div class="om-indhold">
+        <div class="om-tekst-boks">
+          <h2>Om ChokoLuxe</h2>
+          <p class="om-brødtekst">
+            ChokoLuxe blev grundlagt i 2009 af chokolademager Elena Voss med én
+            ambition: at skabe chokolade, der smager af noget ægte. <br />
+            Vi henter vores kakaobønner fra håndplukkede plantager i Ecuador,
+            Madagascar og Peru, og former hver plade i hånden på vores værksted
+            i København. <br /><br />Ingen genveje — kun råvarer af højeste
+            kvalitet og et håndværk, vi er stolte af.
+          </p>
+          <div class="knap">
+            <button class="calltoaction">Lav chokolade</button>
+          </div>
+        </div>
+        <div class="om-billede">
+          <div class="img-placeholder"><img src="fabrik.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESSEN -->
+    <section class="proces-sektion" id="processen">
+      <div class="proces-trin">
+        <div class="trin">
+          <p>Dyrket</p>
+          <div class="trin-billede">
+            <i class="fa-solid fa-tractor"></i>
+          </div>
+        </div>
+
+        <div class="pil">→</div>
+
+        <div class="trin">
+          <p>Håndplukket</p>
+          <div class="trin-billede">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+        </div>
+
+        <div class="pil">→</div>
+
+        <div class="trin">
+          <p>Forarbejderet</p>
+          <div class="trin-billede">
+            <i class="fa-solid fa-mortar-pestle"></i>
+          </div>
+        </div>
+
+        <div class="pil">→</div>
+
+        <div class="trin">
+          <p>Serveret</p>
+          <div class="trin-billede">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- UNDEROVERSKRIFT / FEATURE BILLEDER -->
+    <section class="feature-sektion">
+      <h2>Håndlavet chokolade</h2>
+      <div class="feature-grid">
+        <div class="feature-billede">
+          <img src="choko.png" alt="" />
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-punkt">
+            <button class="accordion-knap">Råvarer <span>+</span></button>
+            <div class="accordion-indhold">
+              <p>
+                Vi henter vores kakaobønner fra håndplukkede plantager i
+                Ecuador, Madagascar og Peru.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-punkt">
+            <button class="accordion-knap">Håndværk <span>+</span></button>
+            <div class="accordion-indhold">
+              <p>
+                Hver plade formes og tempereres i hånden af vores
+                chokolademagere i København.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-punkt">
+            <button class="accordion-knap">Kvalitet <span>+</span></button>
+            <div class="accordion-indhold">
+              <p>
+                Vi går aldrig på kompromis — kun de fineste ingredienser finder
+                vej til vores chokolade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CITAT -->
+    <section class="citat-sektion">
+      <blockquote class="citat-tekst">
+        "Hver plade er et håndværk — skabt med tålmodighed, formet med præcision
+        og båret af en urokkelig kærlighed til kakaobønnens sjæl."
+      </blockquote>
+    </section>
+
+    <!-- ORGANISATION -->
+    <section class="organisation-sektion" id="organisation">
+      <h2>Organisation</h2>
+      <div class="team-grid">
+        <div class="team-kort">
+          <div class="team-avatar"><img src="#" alt="" /></div>
+          <div class="team-tekst">Tekst</div>
+        </div>
+
+        <div class="team-kort">
+          <div class="team-avatar">IMG</div>
+          <div class="team-tekst">Tekst</div>
+        </div>
+
+        <div class="team-kort">
+          <div class="team-avatar">IMG</div>
+          <div class="team-tekst">Tekst</div>
+        </div>
+
+        <div class="team-kort">
+          <div class="team-avatar">IMG</div>
+          <div class="team-tekst">Tekst</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-indhold">
+        <div>
+          <h3>ChokoLuxe</h3>
+          <a href="#">Om os</a>
+          <a href="#">Kontakt</a>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <a href="#">Processen</a>
+          <a href="#">Organisation</a>
+        </div>
+      </div>
+      <div class="footer-bund">
+        © 2026 ChokoLuxe — Alle rettigheder forbeholdes
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const nav = document.getElementById("nav");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("aktiv");
+        nav.classList.toggle("åben");
+      });
+    </script>
+    <script>
+      document.querySelectorAll(".accordion-knap").forEach((knap) => {
+        knap.addEventListener("click", () => {
+          const indhold = knap.nextElementSibling;
+          knap.classList.toggle("åben");
+          indhold.classList.toggle("åben");
+        });
+      });
+    </script>
+  </body>
+</html>
